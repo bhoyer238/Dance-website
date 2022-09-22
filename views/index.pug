@@ -1,0 +1,54 @@
+doctype html
+html
+  head
+   title Rohit Dance Acadmy
+    style
+      include  ../static/style.css        
+  body
+    nav#navbar.top 
+      ul 
+         div#logo
+            img(src="/static/logo.png")
+            
+         li #[a(href="/") Home]
+         li #[a(href="/") About] 
+         li #[a(href="/") contact us] 
+         li #[a(href="/") Service] 
+    sectio#introsection 
+        div.wel Welcome To The Rohit's Dance Acadmy 
+        div.wel1 Eat Sleep Dance Reapeat 
+    Section#our-mission 
+       h3 Our Mission 
+       div.card
+          h4 Only for dance 
+          div.card-box
+               div.card-img
+                  img(src="/static/dance1.png")
+               div.card-content
+                  p Dance is the art To exploring You To find your Hobys 
+       div.card
+          h4 can join the class 
+          div.card-box
+               div.card-img
+                  img(src="/static/dance2.png")
+               div.card-content
+                  p This is Dance class To join the best class 
+       div.card
+          h4 our teachers  
+          div.card-box
+               div.card-img1
+                  img(src="/static/dance3.png")
+               div.card-content
+                  p Our Teacher are so colified To Dance 
+    Section#Sponsorsection 
+       h3 OUR SPONSRS 
+       div#sponsorbox
+         img(src="/static/sponsor1.png", alt="This is the sponsors Image" class="spImage")
+         img(src="/static/sponsor2.png", alt="This is the sponsors Image" class="spImage")
+         img(src="/static/sponsor3.png", alt="This is the sponsors Image" class="spImage")
+                  
+        
+    footer#footer 
+       | Copyright © 2022 Rohit's Dance Acadmy  
+    script
+      include ../static/index.js
